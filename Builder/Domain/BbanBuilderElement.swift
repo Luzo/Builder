@@ -5,6 +5,7 @@
 class BbanBuilderElement: BaseFormElement {
     enum BbanBuilderElements: String {
         case accountNumber
+        case bankCode
     }
 
     let value: BbanBuilderElements

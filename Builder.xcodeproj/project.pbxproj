@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83A90DA25D9462E009B8EE9 /* MyBuilderFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83A90D925D9462E009B8EE9 /* MyBuilderFormError.swift */; };
+		E83A90DD25D946D8009B8EE9 /* Result+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83A90DC25D946D8009B8EE9 /* Result+Chaining.swift */; };
+		E83A90E025D94AC4009B8EE9 /* TupleFlatenning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83A90DF25D94AC4009B8EE9 /* TupleFlatenning.swift */; };
 		E8C39FB725D842AC003E86E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C39FB625D842AC003E86E3 /* AppDelegate.swift */; };
 		E8C39FB925D842AC003E86E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C39FB825D842AC003E86E3 /* SceneDelegate.swift */; };
 		E8C39FBB25D842AC003E86E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C39FBA25D842AC003E86E3 /* ViewController.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83A90D925D9462E009B8EE9 /* MyBuilderFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBuilderFormError.swift; sourceTree = "<group>"; };
+		E83A90DC25D946D8009B8EE9 /* Result+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Chaining.swift"; sourceTree = "<group>"; };
+		E83A90DF25D94AC4009B8EE9 /* TupleFlatenning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleFlatenning.swift; sourceTree = "<group>"; };
 		E8C39FB325D842AC003E86E3 /* Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Builder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C39FB625D842AC003E86E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8C39FB825D842AC003E86E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 				E8C39FE025D8455F003E86E3 /* BbanBuilder.swift */,
 				E8C39FE625D84706003E86E3 /* MyBuilder.swift */,
 				E8C39FE925D8472F003E86E3 /* MyPresenter.swift */,
+				E83A90D925D9462E009B8EE9 /* MyBuilderFormError.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -149,6 +156,8 @@
 				E8C39FD725D84355003E86E3 /* BuilderPresenter.swift */,
 				E8C39FDD25D843C8003E86E3 /* BaseBuilder.swift */,
 				E8C39FE325D846D3003E86E3 /* BuilderView.swift */,
+				E83A90DC25D946D8009B8EE9 /* Result+Chaining.swift */,
+				E83A90DF25D94AC4009B8EE9 /* TupleFlatenning.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -239,13 +248,16 @@
 				E8C39FEA25D8472F003E86E3 /* MyPresenter.swift in Sources */,
 				E8C39FBB25D842AC003E86E3 /* ViewController.swift in Sources */,
 				E8C39FE425D846D3003E86E3 /* BuilderView.swift in Sources */,
+				E83A90DD25D946D8009B8EE9 /* Result+Chaining.swift in Sources */,
 				E8C39FE125D8455F003E86E3 /* BbanBuilder.swift in Sources */,
 				E8C39FFE25D85C12003E86E3 /* BaseBuilderViewController.swift in Sources */,
 				E8C39FD825D84355003E86E3 /* BuilderPresenter.swift in Sources */,
 				E8C39FB725D842AC003E86E3 /* AppDelegate.swift in Sources */,
 				E8C39FF325D84787003E86E3 /* BbanBuilderElement.swift in Sources */,
 				E8C39FD425D84327003E86E3 /* FormError.swift in Sources */,
+				E83A90DA25D9462E009B8EE9 /* MyBuilderFormError.swift in Sources */,
 				E8C39FDB25D8436D003E86E3 /* MyFormError+DisplayableError.swift in Sources */,
+				E83A90E025D94AC4009B8EE9 /* TupleFlatenning.swift in Sources */,
 				E8C39FDE25D843C8003E86E3 /* BaseBuilder.swift in Sources */,
 				E8C39FB925D842AC003E86E3 /* SceneDelegate.swift in Sources */,
 			);

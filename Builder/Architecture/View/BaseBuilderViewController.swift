@@ -17,8 +17,8 @@ class BaseBuilderViewController: UIViewController {
         }
     }
 
-    func showErrors(_ errors: [FormError]) {
-        guard let error = errors.compactMap({ $0 as? FormDisplayableError }).first else {
+    func showErrors(_ errors: [FormDisplayableError]) {
+        guard let error = errors.first else {
             return
         }
         let alert = UIAlertController(title: "ERROR", message: error.text, preferredStyle: .alert)
